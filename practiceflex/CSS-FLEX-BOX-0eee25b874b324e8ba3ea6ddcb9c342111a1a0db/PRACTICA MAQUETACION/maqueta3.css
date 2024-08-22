@@ -1,0 +1,83 @@
+body{
+    background-color: rgb(185, 0, 170);
+}
+.banner{
+    background-color: rgb(221, 221, 221);
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.info,
+.buscador,
+.usuario{
+    height: 80%;
+    width: 20%;
+    background-color: #fff;
+}
+.con-info{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.con-info div{
+    margin-top: 10px;
+    
+}
+.con-info  div  h3,
+.con-info  div  p{
+    margin: 0;
+}
+
+.buscador{
+    width: 58%;
+    
+}
+.buscador div{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.buscador div input{
+    height: 36px;
+    width: 75%;
+    border: 1px solid #d3cece;
+}
+.buscador div button,
+.usuario div button{
+    background-color: greenyellow;
+    color: black;
+    padding: 10px;
+    border: 2px solid green;
+}
+.usuario{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/*************estilos del menu*********/
+.menu{
+    width: 100%;
+    height: auto;
+    margin: 0 30px;
+}
+.menu ul{
+    list-style: none;
+    display: flex;
+    height: 80px;
+    width: 100%;
+    justify-content: space-evenly;
+}
+.menu ul li:not(:first-child) {
+    background-color: gray;
+    color: #000;
+    padding: 6px;
+}
+.menu ul li:first-child a img{
+    width: 100px;
+}

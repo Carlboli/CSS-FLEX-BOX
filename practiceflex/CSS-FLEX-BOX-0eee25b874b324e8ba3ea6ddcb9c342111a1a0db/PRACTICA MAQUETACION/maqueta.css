@@ -1,0 +1,72 @@
+.header,
+.nav,
+.main,
+.footer,
+.nav2,
+.section,
+.aside{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(227, 216, 216);
+    margin: 10px 0;
+    border-radius: 15px;
+    border: 2px solid gray;
+    text-align: center;
+}
+.nav{
+    height: 70px;
+} 
+.main{
+    height: 400px;
+    display: flex;
+    justify-content: space-between;
+    background-color: transparent;
+    border: 0;
+    
+    
+}
+.nav2{
+    width: 15%;
+    height: 100%;
+    margin: 0;
+}
+.section{
+    width: 60%;
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: white;
+    border: 0;
+}
+.section .section-1,
+.section .section-2{
+    width: 100%;
+    height: 47%;
+    background-color: rgb(155, 141, 141);
+    border: 2px solid gray;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: end;
+    
+    
+    
+}
+.section .section-1 .article1,
+.section .section-1 .aside2,
+.section .section-2 .article2,
+.section .section-2 .aside3{
+    width: 47%;
+    height: 75%;
+    background-color:  rgb(227, 216, 216);
+    border: 2px solid gray;
+    border-radius: 15px;
+    margin: 0 0 15px;
+}
+.aside{
+    width: 20%;
+    height: 100%;
+    margin: 0;
+}
